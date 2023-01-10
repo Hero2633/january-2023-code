@@ -1,3 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+struct ListNode
+{
+int val;
+struct ListNode*next;
+};
 bool is_Capitalization(char s1,char s2)
 {
 return ((s1+32==s2)||(s2+32==s1))?true:false;
